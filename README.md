@@ -1,1 +1,1 @@
-# heroku-php-test
+# php-getting-started
