@@ -42,8 +42,7 @@
     <h2>
       <?php
       $now = new DateTime();
-      echo $now->format('Y-m-d H:i:s');    // MySQL datetime format
-      echo $now->getTimestamp();           // Unix Timestamp -- Since PHP 5.3
+      echo 'Today is : ' + $now->format('Y-m-d H:i:s');    // MySQL datetime format
       ?>
     </h2>
     <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
