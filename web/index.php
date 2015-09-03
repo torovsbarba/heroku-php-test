@@ -42,6 +42,7 @@
     <h2>
       <?php
       $now = new DateTime();
+      echo "Today is :";
       echo $now->format('Y-m-d H:i:s');    // MySQL datetime format
       ?>
     </h2>
