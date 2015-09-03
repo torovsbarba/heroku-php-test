@@ -1,6 +1,6 @@
 
 <!DOCTYPE html><html class=''>
-<head><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="canonical" href="http://codepen.io/nicolasmccurdy/pen/dxzwE" />
+<head><meta charset='UTF-8'>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,16 +39,8 @@
 <div class="container">
   <div class="starter-template">
     <h1>Bootstrap starter template</h1>
-    <h2>
-      <?php
-      $now = new DateTime();
-      echo "Today is :";
-      echo $now->format('Y-m-d H:i:s');    // MySQL datetime format
-      ?>
-    </h2>
     <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
   </div>
 </div>
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src='//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
-<script src='//codepen.io/assets/editor/live/css_live_reload_init.js'></script>
 </body></html>
